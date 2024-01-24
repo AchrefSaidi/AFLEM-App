@@ -1,6 +1,8 @@
 # Aflem - Documentation de l'Application
 
-![Logo Aflem](images/roundaflem.png)
+<p align="center">
+  <img src="images/roundaflem.png" alt="Logo Aflem" width="200">
+</p>
 
 ## Introduction
 Aflem est une application Android conçue pour explorer des informations sur les films et permettre aux utilisateurs de donner leur avis sur les films. Cette documentation explique le fonctionnement de l'application, les fonctionnalités mises en œuvre et les décisions de conception prises.
@@ -21,16 +23,37 @@ L'application Aflem gère deux types d'erreurs liées aux calls l'API :
 2. Si la réponse de l'API n'est pas réussie (par exemple, en raison d'une erreur côté serveur), l'application affiche également un message d'erreur informatif.
 
 ## Captures d'Écran
-![Capture d'écran 1](images/HomeScreen.png)
-*Capture d'écran 1 : Page d'accueil*
-![Capture d'écran 2](images/Trending.png)
-*Capture d'écran 2 : Liste des films populaires.*
 
-![Capture d'écran 3](images/NetworkConnection.png)
-*Capture d'écran 3 : Page de détails d'un film avec une évaluation d'utilisateur.*
+<p align="center">
+  <img src="images/HomeScreen.png" alt="Capture d'écran 1" width="400">
+</p>
+<p align="center">
+  <em>Capture d'écran 1 : Page d'accueil</em>
+</p>
 
-![Capture d'écran 4](images/Rating.png)
-*Capture d'écran 3 : Erreur de connexion.*
+<p align="center">
+  <img src="images/Trending.png" alt="Capture d'écran 2" width="400">
+</p>
+<p align="center">
+  <em>Capture d'écran 2 : Liste des films populaires</em>
+</p>
+
+<p align="center">
+  <img src="images/Rating.png" alt="Capture d'écran 3" width="400">
+</p>
+<p align="center">
+  <em>Capture d'écran 3 : Page de détails d'un film avec une évaluation d'utilisateur</em>
+</p>
+
+<p align="center">
+  <img src="images/NetworkConnection.png" alt="Capture d'écran 4" width="400">
+</p>
+<p align="center">
+  <em>Capture d'écran 4 : Erreur de connexion</em>
+</p>
+
+
+
 ## Conception de l'Application et Décisions Prises
 
 ### Utilisation d'Adapters et RecyclerViews
